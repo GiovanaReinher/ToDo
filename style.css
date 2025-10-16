@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+h1 {
+    /* altera a fonte do titulo*/
+    font-family: "Playwrite DE SAS", cursive;
+    /*altera a cor do titulo*/
+    color:blue
+}
+body {
+    background-color: dodgerblue;
+}
+
+.card{
+    background-color: darkblue;
+}
+
+input[type="text"] {
+    background-color: lightblue;
+}
+
+input[type="text"]:focus {
+    background-color: lightblue;
+}
+
+.list-group-item {
+    background-color: deepskyblue;
+    border: 1px solid black;
+}
