@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap');
 
-h1 {
+h1.titulo {
     /* altera a fonte do titulo*/
     font-family: "Playwrite DE SAS", cursive;
     /*altera a cor do titulo*/
-    color:blue
+    color: blue;
 }
+
 body {
     background-color: dodgerblue;
 }
@@ -25,4 +26,11 @@ input[type="text"]:focus {
 .list-group-item {
     background-color: deepskyblue;
     border: 1px solid black;
+}
+
+.btn-concluir {
+    background-color: green;
+}
+.btn-excluir {
+    background-color: red;
 }
